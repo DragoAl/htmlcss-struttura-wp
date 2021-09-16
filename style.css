@@ -5,9 +5,12 @@
 }
 .conteiner{
     width: 80%;
-    height: 200px;
-    background-color: aquamarine;
     margin: 0 auto;
+    
+    /* debug */
+    /* height: 200px; */
+    /* background-color: aquamarine; */
+
 }
 .clearfix::after{
     content: "";
@@ -16,15 +19,65 @@
 }
 header{
     width: 100%;
+    
+    /* debug */
     height: 100px;
-    background-color:fuchsia;
-    margin-bottom:50px, 
+    background-color:rgba(229,121,230,255);
     
     /* il margin non ha effetto poichè header è meno importante della classe conteiner */
 }
 #jumbotron{
     width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+    /* debug */
     height: 300px;
-    background-color:goldenrod;
-    margin-top: 20px;
+    background-color:rgba(225,214,122,255);
+}
+.clearfix{
+    margin-bottom: 1%;
+    /* debug */
+    background-color: #0086ff;
+}
+.slot{
+    float: left;
+    
+    /* debug */
+    background-color: #abcfe7;
+}
+
+
+.side{
+    width: 24%;
+    margin-top: 1%;
+   
+    /* debug */
+    height: 300px;
+
+}
+.maintext{
+    width: 50%;
+    margin: 1%;
+    
+    /* debug */
+    height: 300px;
+    
+}
+
+.title{
+    width: 100%;
+    
+    /* debug */
+    height: 50px;
+    background-color:#abcfe7;
+
+}
+footer{
+    width: 100%;
+
+    /* debug */
+    height: 50px;
+    background-color: #8801fe;
+
 }
